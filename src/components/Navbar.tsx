@@ -22,7 +22,7 @@ async function Navbar() {
         </div>
       </div>
     </nav>
-  )
+  );
 }
 
 export default Navbar;

@@ -93,7 +93,7 @@ model Follows{
   following   User     @relation("following", fields: [followingId], references: [id], onDelete: Cascade)
 
   @@index([followerId,followingId]) 
-  @@id([followerId, followingId]) 
+  @@id([followerId, followingId])  // 確保同一個 follower 不能重複關注同一個 following
 }
 
 model Notification {

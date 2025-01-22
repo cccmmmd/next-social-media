@@ -20,8 +20,8 @@ function CreatePost() {
 
   const handleSubmit = async () => {
     if (!content.trim() && !imageUrl) return;
-
     setIsPosting(true);
+    
     try {
         const result = await createPost(content, imageUrl);
         if (result?.success) {   //如果 result 存在，則檢查它的 success 屬性值，如果 result 不存在，則整個表達式返回 undefined
