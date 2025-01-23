@@ -54,7 +54,7 @@ export function DeleteAlertDialog({
                 className="bg-red-500 hover:bg-red-600"
                 disabled={isDeleting}
             >
-                {isDeleting ? "Deleting..." : "Delete"}
+                {isDeleting ? "刪除中..." : "刪除"}
             </AlertDialogAction>
             </AlertDialogFooter>
         </AlertDialogContent>
