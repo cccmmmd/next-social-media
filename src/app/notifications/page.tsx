@@ -92,7 +92,7 @@ function NotificationPage() {
                             {notification.type === "FOLLOW"
                             ? "開始追蹤你"
                             : notification.type === "LIKE"
-                            ? "喜歡你的貼文"
+                            ? "按讚你的貼文"
                             : "在你的貼文留言"}
                         </span>
                         </div>
