@@ -68,7 +68,7 @@ function ProfilePageClient({
     const result = await updateProfile(formData);
     if (result.success) {
       setShowEditDialog(false);
-      toast.success("Profile updated successfully");
+      toast.success("個人檔案更新成功！");
     }
   };
 
